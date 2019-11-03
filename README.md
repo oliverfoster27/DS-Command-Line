@@ -15,3 +15,5 @@
 ### Running the docker shell
 In your linux environment, open the terminal and type "$ docker run --rm -it datascienceworkshops/data-science-at-the-command-line"
 Test it by typing "cowsay "Let's go!""
+
+I created the alias startdsdocker to start the docker shell
