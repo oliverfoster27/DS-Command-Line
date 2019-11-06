@@ -16,4 +16,13 @@
 In your linux environment, open the terminal and type "$ docker run --rm -it datascienceworkshops/data-science-at-the-command-line"
 Test it by typing "cowsay "Let's go!""
 
+#### Notes
+
 I created the alias startdsdocker to start the docker shell
+
+
+To get a list of your docker containers write "docker ps" in the terminal
+
+
+To move a file from your linux machine to the docker container: 
+docker cp <LOCAL_FILENAME> <CONTAINER_NAME>:/<CONTAINER_LOCATION>
